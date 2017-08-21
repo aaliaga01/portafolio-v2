@@ -1,0 +1,74 @@
+/*reset basico*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* estilos generales */
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3{
+	font-family: 'Playfair Display', serif;
+}
+
+/* estilos nav */
+	.navbar-default{
+		border:none;
+		padding-bottom: 10px;
+		background-color:rgba(grey,0.2);
+		.logo{
+			color:white;
+			font-weight: 300;
+			img{
+			width: 24%;
+			margin-top:-5px;
+			}
+		}
+		.navbar-toggle{
+			border: none;
+		}
+		button{
+			margin-top: 20px;
+		}
+	}
+	.navbar-collapse{
+		border: none;
+	}
+
+/* estilos inicio */
+#inicio{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+
+	.navbar-default, .navbar-nav>li>a{
+		color: white;
+		font-weight: 300;
+		padding: 15px;
+	}
+
+	.navbar-nav>li>a:hover{
+		font-weight: 700;
+		padding-bottom: 5px;
+		border-bottom: solid 2px red;
+	}
+
+	h2{
+		font-size: 8em;
+		color: white;
+		font-weight: 700;
+		margin-top: 50px;
+		text-shadow: 3px 4px 3px rgba(black, 0.4);
+	}
+	h3{
+		font-size: 5em;
+		color: white;
+		font-weight: 700;
+		margin-top: 60px;
+		text-shadow: 3px 4px 3px rgba(black, 0.4);
+	}
+}
