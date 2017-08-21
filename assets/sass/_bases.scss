@@ -18,7 +18,7 @@ h1, h2, h3{
 	.navbar-default{
 		border:none;
 		padding-bottom: 10px;
-		background-color:rgba(grey,0.2);
+		background-color:rgba(#857876,0.2);
 		.logo{
 			color:white;
 			font-weight: 300;
@@ -54,7 +54,7 @@ h1, h2, h3{
 	.navbar-nav>li>a:hover{
 		font-weight: 700;
 		padding-bottom: 5px;
-		border-bottom: solid 2px red;
+		border-bottom: solid 2px #10BEB1;
 	}
 
 	h2{
@@ -70,5 +70,39 @@ h1, h2, h3{
 		font-weight: 700;
 		margin-top: 60px;
 		text-shadow: 3px 4px 3px rgba(black, 0.4);
+	}
+}
+
+/* estilos sobre-mi */
+#sobre-mi{
+	background-color: #10BEB1;
+	
+	h2{
+	font-size: 4em;
+	color: white;
+	font-weight: 400;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-shadow: 3px 4px 3px rgba(black, 0.4);
+	}
+	.parrafo{
+	font-size: 1em;
+	margin-top: 10px;
+	margin-left: 170px;
+	color:white;
+	font-weight: 300;
+	}
+
+	.movil{
+	font-size: 1em;
+	margin-top: 10px;
+	color:white;
+	font-weight: 300;
+	text-align:center;
+	}
+
+	.foto{
+	width:80%;
+	margin: 20px auto;
 	}
 }
