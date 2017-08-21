@@ -59,7 +59,8 @@ h1, h2, h3 {
 
 /* estilos sobre-mi */
 #sobre-mi {
-  background-color: #10BEB1; }
+  background-color: #10BEB1;
+  height: 560px; }
   #sobre-mi h2 {
     font-size: 4em;
     color: white;
@@ -81,6 +82,20 @@ h1, h2, h3 {
     text-align: center; }
   #sobre-mi .foto {
     width: 80%;
-    margin: 20px auto; }
+    margin: 0 auto;
+    padding-bottom: 20px; }
+
+#skills {
+  background-color: white;
+  left: 0; }
+  #skills .imagen-skills {
+    margin: 0 auto; }
+    #skills .imagen-skills img {
+      width: 90%; }
+  #skills h3 {
+    font-size: 3em;
+    color: #10BEB1;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

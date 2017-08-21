@@ -76,7 +76,8 @@ h1, h2, h3{
 /* estilos sobre-mi */
 #sobre-mi{
 	background-color: #10BEB1;
-	
+	height: 560px;
+
 	h2{
 	font-size: 4em;
 	color: white;
@@ -103,6 +104,24 @@ h1, h2, h3{
 
 	.foto{
 	width:80%;
-	margin: 20px auto;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	}
+}
+
+#skills{
+	background-color:white;
+	left: 0;
+	.imagen-skills{
+		margin:0 auto;
+		img{
+			width: 90%;
+		}
+	}
+	h3{
+		font-size: 3em;
+		color: #10BEB1;
+		font-weight: 400;
+		font-family: 'Raleway', sans-serif;
 	}
 }
