@@ -60,13 +60,13 @@ h1, h2, h3 {
 /* estilos sobre-mi */
 #sobre-mi {
   background-color: #10BEB1;
-  height: 560px; }
+  height: 450px; }
   #sobre-mi h2 {
     font-size: 4em;
     color: white;
     font-weight: 400;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.4); }
   #sobre-mi .parrafo {
     font-size: 1em;
@@ -81,21 +81,130 @@ h1, h2, h3 {
     font-weight: 300;
     text-align: center; }
   #sobre-mi .foto {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    padding-bottom: 20px; }
+    padding-top: 20px; }
 
 #skills {
   background-color: white;
-  left: 0; }
+  border-bottom: solid 30px #10BEB1; }
   #skills .imagen-skills {
-    margin: 0 auto; }
+    margin: 10px auto; }
     #skills .imagen-skills img {
-      width: 90%; }
+      width: 100%; }
   #skills h3 {
     font-size: 3em;
     color: #10BEB1;
     font-weight: 400;
     font-family: 'Raleway', sans-serif; }
+
+#proyectos {
+  background-image: url(../img/proyectos.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 950px; }
+  #proyectos .img-prev {
+    width: 100%; }
+  #proyectos h2 {
+    font-size: 4em;
+    color: white;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.4);
+    padding-bottom: 20px; }
+  #proyectos .textos {
+    background-color: #6d2a5b;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+    #proyectos .textos h4 {
+      font-size: 3em;
+      color: white;
+      margin-top: 10px;
+      padding-bottom: 10px; }
+    #proyectos .textos a {
+      color: white;
+      padding: 5px 15px;
+      margin: 10px;
+      border: solid 2px white;
+      text-decoration: none;
+      font-size: 1.5em; }
+    #proyectos .textos a:hover {
+      color: #6d2a5b;
+      background-color: white; }
+  #proyectos .textos2 {
+    background-color: #10BEB1;
+    position: relative;
+    top: 140px;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+    #proyectos .textos2 h4 {
+      font-size: 3em;
+      color: white;
+      margin-top: 10px;
+      padding-bottom: 10px; }
+    #proyectos .textos2 a {
+      color: white;
+      padding: 5px 15px;
+      margin: 10px;
+      border: solid 2px white;
+      text-decoration: none;
+      font-size: 1.5em; }
+    #proyectos .textos2 a:hover {
+      color: #10BEB1;
+      background-color: white; }
+  #proyectos .proy1 {
+    background-image: url(../img/applove.png);
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px; }
+  #proyectos .proy2 {
+    background-image: url(../img/dobby.png);
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px; }
+  #proyectos .proy3 {
+    background-image: url(../img/freelancer.png);
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px; }
+  #proyectos .proy4 {
+    background-image: url(../img/goog.png);
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px; }
+  #proyectos .proy5 {
+    background-image: url(../img/lab-car.png);
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px; }
+  #proyectos .proy6 {
+    background-image: url(../img/save.png);
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    margin-top: 20px; }
+
+#contacto {
+  background-color: #10BEB1;
+  color: white;
+  height: 60px;
+  margin-top: 50px;
+  padding-top: 20px; }
+  #contacto a {
+    color: white;
+    font-size: 16px;
+    padding-right: 10px;
+    text-decoration: none; }
+  #contacto .fa {
+    font-size: 32px;
+    padding: 0 10px; }
+  #contacto a:hover {
+    color: #15635c; }
 
 /*# sourceMappingURL=main.css.map */
